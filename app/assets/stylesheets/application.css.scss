@@ -23,3 +23,34 @@ body {
   padding-top: 70px;
   padding-bottom: 30px;
 }
+
+.errors {
+  color: red;
+}
+
+.left-pic {
+    float: left;
+    position: relative;
+    margin: 5px;
+}
+
+.right-info {
+    margin: 5px;
+    float: left;
+    position: relative;
+    height: 325px;
+    width: 550px;
+    background-color: #EEEEEE;
+    text-align: center;
+    padding: 80px 60px 20px 60px;
+    border-radius: 7px;
+}
+
+.pic, .info {
+    padding: 20px;
+    display: inline-block;
+    background-color: #EEEEEE;
+    border-radius: 7px;
+    vertical-align: middle;
+    margin: 10px;
+}

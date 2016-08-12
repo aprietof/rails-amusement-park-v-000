@@ -1,0 +1,15 @@
+<div class="container" role="main">
+  <div class="theme-showcase" role="main">
+    <%if current_user.admin %>
+      <h2><%= "ADMIN" %></h2>
+    <% end %>
+    <div class="info">
+      <p><strong>Name:</strong> <%= current_user.name %></p>
+      <p><strong>Tickets:</strong> <%= current_user.tickets %></p>
+      <p><strong>Mood:</strong>  <%= current_user.mood %></p>
+      <p><strong>Height:</strong> <%= current_user.height %></p>
+      <p><%= link_to "Edit", edit_user_path(current_user)%></p>
+      <p><%= link_to "See attractions", attractions_path %></p>
+    </div>
+  </div>
+</div>
